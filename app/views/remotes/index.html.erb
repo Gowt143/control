@@ -1,0 +1,8 @@
+<h1>Hi <%= @user.name %></h1>
+<p>Here is your remote control!</p>
+<div>
+<span><%= link_to "Light On", "https://api.thingspeak.com/update?api_key=91SHW5GUCCRO6Y5M&field1=1" %></span>
+<span><%= link_to "Light Off", "https://api.thingspeak.com/update?api_key=91SHW5GUCCRO6Y5M&field1=2" %></span>
+<span><%= link_to "Fan On", "https://api.thingspeak.com/update?api_key=91SHW5GUCCRO6Y5M&field1=3" %></span>
+<span><%= link_to "Fan Off", "https://api.thingspeak.com/update?api_key=91SHW5GUCCRO6Y5M&field1=4" %></span>
+</div>
