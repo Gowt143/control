@@ -13,6 +13,23 @@ class UsersController < ApplicationController
             render :new, status: :unprocessable_entity
         end
       end
+
+      def index
+        @user = User.find(session[:current_user_id])
+      end
+
+      def show
+        @user = User.find(session[:current_user_id])
+      end
+
+      def index
+        @users = User.all
+      end
+
+      def devices
+        @device1 = Device.first
+        @device2 = Device.last
+      end
     
       private
     

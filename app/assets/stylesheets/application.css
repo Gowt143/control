@@ -13,3 +13,279 @@
  *= require_tree .
  *= require_self
  */
+ h1{
+    color: rgb(32, 32, 252) !important;
+ }
+ .column{
+    display: flex;
+    flex-direction: column;
+ }
+ .cars{
+    margin: 40px;
+ }
+ .search{
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 30px;
+ }
+ .slect_button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ table{
+    text-align: center;
+ }
+ .admin{
+    color: red !important;
+ }
+ .admin_p{
+    color: rgb(197, 53, 53);
+    font-style: italic;
+ }
+ li{
+    list-style-type: none;
+ }
+ .remote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+ }
+ .profile{
+    font-style: italic;
+ }
+
+ p{
+
+    font-style: itallic;
+ }
+ .control{
+    display: flex;
+    flex-direction: column;
+ }
+ .but1{
+   display: inline-block;
+   height: 30vh;
+   width: 40vw;
+   border-width: 10px;
+   margin: 10px;
+   font-size: 40px;
+   background-color: #ffe75c;
+   font-weight: bold;
+   border-radius: 25px;
+ }
+ .but2{
+   display: inline-block;
+   height: 30vh;
+   width: 40vw;
+   border-width: 10px;
+   margin: 10px;
+   font-size: 40px;
+   background-color: #ffe75c;
+   font-weight: bold;
+   border-radius: 25px;
+ }
+ .but3{
+   display: inline;
+   height: 30vh;
+   width: 40vw;
+   border-width: 10px;
+   margin: 10px;
+   font-size: 40px;
+   font-weight: bold;
+   background-color: rgb(171, 59, 59);
+   border-radius: 25px;
+ }
+ .but4{
+   display: inline-block;
+   height: 30vh;
+   width: 40vw;
+   border-width: 10px;
+   margin: 10px;
+   font-size: 40px;
+   font-weight: bold;
+   background-color: rgb(171, 59, 59);
+   border-radius: 25px;
+ }
+ .inner{
+   display: flex;
+ }
+ .but1:hover{
+   box-shadow: 5px 5px 5px green;
+   border-width: 1px;
+ }
+ .but2:hover{
+   box-shadow: 5px 5px 5px red;
+   border-width: 1px;
+ }
+ .but3:hover{
+   box-shadow: 5px 5px 5px green;
+   border-width: 1px;
+ }
+ .but4:hover{
+   box-shadow: 5px 5px 5px red;
+   border-width: 1px;
+ }
+.profile_page{
+   text-align: center;
+}
+.name{
+   background-color: blue;
+   font-style: italic;
+   color: white !important;
+   padding-bottom: 20px;
+   margin-bottom: 0px;
+}
+.title:hover{
+   color: red;
+}
+.details{
+   padding-top: 20px;
+   border: solid 25px blue ;
+   margin-top: 0px;
+   color: blue;
+   font-size: 20px;
+   margin-bottom: 20px;
+}
+.value{
+   color: black;
+}
+h1{
+   color: rgb(32, 32, 252) !important;
+}
+.column{
+   display: flex;
+   flex-direction: column;
+}
+.cars{
+   margin: 40px;
+}
+.search{
+   margin-top: 30px;
+   margin-left: 30px;
+   padding: 30px;
+}
+.slect_button{
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+table{
+   text-align: center;
+}
+.admin{
+   color: red !important;
+}
+.admin_p{
+   color: rgb(197, 53, 53);
+   font-style: italic;
+}
+li{
+   list-style-type: none;
+}
+.remote{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 50px;
+}
+.profile{
+   font-style: italic;
+}
+
+p{
+
+   font-style: itallic;
+}
+.control{
+   display: flex;
+   flex-direction: column;
+}
+.but1{
+  display: inline-block;
+  height: 30vh;
+  width: 40vw;
+  border-width: 10px;
+  margin: 10px;
+  font-size: 40px;
+  background-color: #ffe75c;
+  font-weight: bold;
+  border-radius: 25px;
+}
+.but2{
+  display: inline-block;
+  height: 30vh;
+  width: 40vw;
+  border-width: 10px;
+  margin: 10px;
+  font-size: 40px;
+  background-color: #ffe75c;
+  font-weight: bold;
+  border-radius: 25px;
+}
+.but3{
+  display: inline;
+  height: 30vh;
+  width: 40vw;
+  border-width: 10px;
+  margin: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: rgb(171, 59, 59);
+  border-radius: 25px;
+}
+.but4{
+  display: inline-block;
+  height: 30vh;
+  width: 40vw;
+  border-width: 10px;
+  margin: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: rgb(171, 59, 59);
+  border-radius: 25px;
+}
+.inner{
+  display: flex;
+}
+.but1:hover{
+  box-shadow: 5px 5px 5px green;
+  border-width: 1px;
+}
+.but2:hover{
+  box-shadow: 5px 5px 5px red;
+  border-width: 1px;
+}
+.but3:hover{
+  box-shadow: 5px 5px 5px green;
+  border-width: 1px;
+}
+.but4:hover{
+  box-shadow: 5px 5px 5px red;
+  border-width: 1px;
+}
+.profile_page{
+  text-align: center;
+}
+.name{
+  background-color: blue;
+  font-style: italic;
+  color: white !important;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+}
+.title:hover{
+  color: red;
+}
+.details{
+  padding-top: 20px;
+  border: solid 25px blue ;
+  margin-top: 0px;
+  color: blue;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.value{
+  color: black;
+}

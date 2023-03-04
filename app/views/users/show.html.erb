@@ -1,0 +1,12 @@
+<div class="profile_page container" >
+<h1 class="name"><%= @user.name %></h1>
+<div class="details" >
+<p>mail: <span class="value"><%=@user.email%></span></p>
+<p>location: <span class="value" ><%=@user.address%></span></p>
+<p>contact: <span class="value"><%=@user.phone%></span></p>
+<p><%= link_to "see my devices", users_devices_path %></p>
+<p><%= link_to "see all users", users_path %></p>
+<p><%= link_to "logout", logins_destroy_path %></p>
+</div>
+<%= link_to "back", root_path %></p>
+</div>

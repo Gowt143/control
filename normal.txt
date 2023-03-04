@@ -1,0 +1,705 @@
+ h1{
+    color: rgb(32, 32, 252) !important;
+ }
+ .column{
+    display: flex;
+    flex-direction: column;
+ }
+ .cars{
+    margin: 40px;
+ }
+ .search{
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 30px;
+ }
+ .slect_button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ table{
+    text-align: center;
+ }
+ .admin{
+    color: red !important;
+ }
+ .admin_p{
+    color: rgb(197, 53, 53);
+    font-style: italic;
+ }
+ li{
+    list-style-type: none;
+ }
+ .remote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+ }
+ .profile{
+    font-style: italic;
+ }
+
+ p{
+
+    font-style: itallic;
+ }
+ .control{
+    display: flex;
+    flex-direction: column;
+ }
+ .but1{
+   display: inline-block;
+   height: 30vh;
+   width: 40vw;
+   border-width: 10px;
+   margin: 10px;
+   font-size: 40px;
+   background-color: #ffe75c;
+   font-weight: bold;
+   border-radius: 25px;
+ }
+ .but2{
+   display: inline-block;
+   height: 30vh;
+   width: 40vw;
+   border-width: 10px;
+   margin: 10px;
+   font-size: 40px;
+   background-color: #ffe75c;
+   font-weight: bold;
+   border-radius: 25px;
+ }
+ .but3{
+   display: inline;
+   height: 30vh;
+   width: 40vw;
+   border-width: 10px;
+   margin: 10px;
+   font-size: 40px;
+   font-weight: bold;
+   background-color: rgb(171, 59, 59);
+   border-radius: 25px;
+ }
+ .but4{
+   display: inline-block;
+   height: 30vh;
+   width: 40vw;
+   border-width: 10px;
+   margin: 10px;
+   font-size: 40px;
+   font-weight: bold;
+   background-color: rgb(171, 59, 59);
+   border-radius: 25px;
+ }
+ .inner{
+   display: flex;
+ }
+ .but1:hover{
+   box-shadow: 5px 5px 5px green;
+   border-width: 1px;
+ }
+ .but2:hover{
+   box-shadow: 5px 5px 5px red;
+   border-width: 1px;
+ }
+ .but3:hover{
+   box-shadow: 5px 5px 5px green;
+   border-width: 1px;
+ }
+ .but4:hover{
+   box-shadow: 5px 5px 5px red;
+   border-width: 1px;
+ }
+.profile_page{
+   text-align: center;
+}
+.name{
+   background-color: blue;
+   font-style: italic;
+   color: white !important;
+   padding-bottom: 20px;
+   margin-bottom: 0px;
+}
+.title:hover{
+   color: red;
+}
+.details{
+   padding-top: 20px;
+   border: solid 25px blue ;
+   margin-top: 0px;
+   color: blue;
+   font-size: 20px;
+   margin-bottom: 20px;
+}
+.value{
+   color: black;
+}
+h1{
+   color: rgb(32, 32, 252) !important;
+}
+.column{
+   display: flex;
+   flex-direction: column;
+}
+.cars{
+   margin: 40px;
+}
+.search{
+   margin-top: 30px;
+   margin-left: 30px;
+   padding: 30px;
+}
+.slect_button{
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+table{
+   text-align: center;
+}
+.admin{
+   color: red !important;
+}
+.admin_p{
+   color: rgb(197, 53, 53);
+   font-style: italic;
+}
+li{
+   list-style-type: none;
+}
+.remote{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 50px;
+}
+.profile{
+   font-style: italic;
+}
+
+p{
+
+   font-style: itallic;
+}
+.control{
+   display: flex;
+   flex-direction: column;
+}
+.but1{
+  display: inline-block;
+  height: 30vh;
+  width: 40vw;
+  border-width: 10px;
+  margin: 10px;
+  font-size: 40px;
+  background-color: #ffe75c;
+  font-weight: bold;
+  border-radius: 25px;
+}
+.but2{
+  display: inline-block;
+  height: 30vh;
+  width: 40vw;
+  border-width: 10px;
+  margin: 10px;
+  font-size: 40px;
+  background-color: #ffe75c;
+  font-weight: bold;
+  border-radius: 25px;
+}
+.but3{
+  display: inline;
+  height: 30vh;
+  width: 40vw;
+  border-width: 10px;
+  margin: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: rgb(171, 59, 59);
+  border-radius: 25px;
+}
+.but4{
+  display: inline-block;
+  height: 30vh;
+  width: 40vw;
+  border-width: 10px;
+  margin: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: rgb(171, 59, 59);
+  border-radius: 25px;
+}
+.inner{
+  display: flex;
+}
+.but1:hover{
+  box-shadow: 5px 5px 5px green;
+  border-width: 1px;
+}
+.but2:hover{
+  box-shadow: 5px 5px 5px red;
+  border-width: 1px;
+}
+.but3:hover{
+  box-shadow: 5px 5px 5px green;
+  border-width: 1px;
+}
+.but4:hover{
+  box-shadow: 5px 5px 5px red;
+  border-width: 1px;
+}
+.profile_page{
+  text-align: center;
+}
+.name{
+  background-color: blue;
+  font-style: italic;
+  color: white !important;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+}
+.title:hover{
+  color: red;
+}
+.details{
+  padding-top: 20px;
+  border: solid 25px blue ;
+  margin-top: 0px;
+  color: blue;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.value{
+  color: black;
+}
+
+
+
+
+
+
+class ApplicationController < ActionController::Base
+    before_action :require_login?
+
+  def logged_in?
+    session[:current_user_id]
+  end
+  
+  def require_login?
+    if !logged_in?
+      flash[:error] = "you must be logged in to perform this action"
+      redirect_to new_login_path
+    end
+  end
+
+
+  def current_user
+    @_current_user ||= session[:current_user_id] && User.find_by(id: session[:current_user_id])
+  end
+end
+
+
+
+
+
+
+
+class LoginsController < ApplicationController
+    skip_before_action :require_login?, only: [:new, :create]
+    def new
+    end
+  
+    def create
+      @user = User.find_by(email: params[:email])
+      if @user && @user.password == params[:password]
+        session[:current_user_id] = @user.id
+        redirect_to root_path
+      end
+    end
+  
+    def destroy
+      session.delete(:current_user_id)
+      redirect_to new_user_path, notice: "you have successfully logged out!"
+    end
+end
+
+
+
+
+
+
+
+class RemotesController < ApplicationController
+    before_action :require_login?
+    def index
+        @user = User.find(session[:current_user_id])
+    end
+end
+
+
+
+
+
+
+
+class UsersController < ApplicationController
+  skip_before_action :require_login?
+    def new
+        @user = User.new
+      end
+    
+      def create
+        @user = User.new(user_params)
+        if @user.save
+            session[:current_user_id] = @user.id
+            redirect_to new_user_path
+        else
+            render :new, status: :unprocessable_entity
+        end
+      end
+
+      def index
+        @user = User.find(session[:current_user_id])
+      end
+
+      def show
+        @user = User.find(session[:current_user_id])
+      end
+
+      def index
+        @users = User.all
+      end
+
+      def devices
+        @device1 = Device.first
+        @device2 = Device.last
+      end
+    
+      private
+    
+      def user_params
+        params.require(:user).permit(:name, :password,:email, :phone, :address)
+      end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+class User < ApplicationRecord
+    validates :name, :email, :phone, :password, presence: true
+    validates :password, :email, :phone, uniqueness: true
+    validates :phone, length: { is: 10 }
+end
+
+
+
+
+
+
+
+
+
+
+class CreateUsers < ActiveRecord::Migration[7.0]
+  def change
+    create_table :users do |t|
+      t.string :name
+      t.string :email
+      t.string :password
+      t.string :address
+      t.bigint :phone
+      
+      t.timestamps
+    end
+  end
+end
+
+
+
+
+
+
+
+
+
+
+class CreateDevices < ActiveRecord::Migration[7.0]
+  def change
+    create_table :devices do |t|
+      t.string :name
+      t.integer :volt
+      t.integer :count
+      t.integer :cost 
+      t.timestamps
+    end
+  end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Rails.application.routes.draw do
+  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+
+  # Defines the root path route ("/")
+  get "/devices" => 'users#devices', as: 'users_devices'
+  get "/destroy" => 'logins#destroy', as: 'logins_destroy'
+  root "remotes#index"
+  resource :remote
+  resources :users
+  resources :logins
+end
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container" >
+  <h1>Login</h1>
+  <%= form_with url: logins_path do |form| %>
+    <div class="card container" >
+      <div class="card-body" >
+          <div class="mb-3" >
+            <%= form.label :email, {class: "form-label"}   %><br>
+            <%= form.email_field :email, {class: "form-control", placeholder: "email"}  %>
+          </div>
+            <div class="mb-3" >
+              <%= form.label :password, {class: "form-label"}   %><br>
+              <%= form.password_field :password, {class: "form-control", placeholder: "password"}   %><br>
+            </div>
+            <div>
+              <%= form.submit "login" %>
+            </div>
+        </div>
+    </div>
+  <% end %>
+  <div class="column" >
+    <%= link_to "don't have an account? Signup!", new_user_path %>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="remote container" >
+<h1>Hi <span class="profile" ><%= link_to @user.name, user_path(@user) %></span>!</h1>
+<p>Here is your remote control!</p>
+<div class="control" >
+<div class="inner" >
+<%= button_to "Light On", "https://api.thingspeak.com/update?api_key=91SHW5GUCCRO6Y5M&field1=" , class:"but1"%>
+<%= button_to "Light Off", "https://api.thingspeak.com/update?api_key=91SHW5GUCCRO6Y5M&field1=2", class:"but2" %>
+</div>
+<div class="inner">
+<%= button_to "Fan On", "https://api.thingspeak.com/update?api_key=91SHW5GUCCRO6Y5M&field1=3", class:"but3" %>
+<%= button_to "Fan Off", "https://api.thingspeak.com/update?api_key=91SHW5GUCCRO6Y5M&field1=4", class:"but4" %>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<table class="table table-dark table-striped">
+<thead>
+<tr>
+<th>device</th>
+<th>cost</th>
+<th>volt</th>
+<th>quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><%= @device1.name %></td>
+<td><%= @device1.cost %></td>
+<td><%= @device1.volt %></td>
+<td><%= @device1.count %></td>
+</tr>
+<tr>
+<td><%= @device2.name %></td>
+<td><%= @device2.cost %></td>
+<td><%= @device2.volt %></td>
+<td><%= @device2.count %></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+<table class="table table-dark table-striped">
+<thead>
+<tr>
+<th>user</th>
+<th>email</th>
+<th>address</th>
+<th>phone</th>
+</tr>
+</thead>
+<tbody>
+<% @users.each do |user| %>
+    <tr>
+        <td><%= user.name %></td>
+        <td><%= user.email %></td>
+        <td><%= user.address %></td>
+        <td><%= user.phone %></td>
+    </tr>
+<% end %>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+<div class="container" >
+  <h1>Signup</h1>
+  <%= form_with model: @user, url: users_path do |form| %>
+    <div class="card container" >
+      <div class="card-body" >
+          <div class="mb-3" >
+            <%= form.label :name, {class: "form-label"}   %><br>
+            <%= form.text_field :name, {class: "form-control", placeholder: "name"}  %>
+            <% @user.errors.full_messages_for(:name).each do |message| %>
+              <div><%= message %></div>
+            <% end %>
+          </div>
+          <div class="mb-3" >
+            <%= form.label :password, {class: "form-label"}   %><br>
+            <%= form.password_field :password, {class: "form-control", placeholder: "password"}   %><br>
+            <% @user.errors.full_messages_for(:password).each do |message| %>
+              <div><%= message %></div>
+            <% end %>
+          </div>
+          <div class="mb-3" >
+            <%= form.label :email, {class: "form-label"}   %><br>
+            <%= form.email_field :email, {class: "form-control", placeholder: "email"}   %><br>
+            <% @user.errors.full_messages_for(:email).each do |message| %>
+              <div><%= message %></div>
+            <% end %>
+          </div>
+          <div class="mb-3" >
+            <%= form.label :address, {class: "form-label"}   %><br>
+            <%= form.text_field :address, {class: "form-control", placeholder: "address"}   %><br>
+            <% @user.errors.full_messages_for(:address).each do |message| %>
+              <div><%= message %></div>
+            <% end %>
+          </div>
+          <div class="mb-3" >
+            <%= form.label :phone, {class: "form-label"}   %><br>
+            <%= form.number_field :phone, {class: "form-control", placeholder: "phone"}   %><br>
+            <% @user.errors.full_messages_for(:phone).each do |message| %>
+              <div><%= message %></div>
+            <% end %>
+          </div>
+          <div>
+            <%= form.submit "signup" %>
+          </div>
+        </div>
+    </div>
+    <%= link_to "Already a user? login ..", new_login_path %>
+  <% end %>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="profile_page container" >
+<h1 class="name"><%= @user.name %></h1>
+<div class="details" >
+<p>mail: <span class="value"><%=@user.email%></span></p>
+<p>location: <span class="value" ><%=@user.address%></span></p>
+<p>contact: <span class="value"><%=@user.phone%></span></p>
+<p><%= link_to "see my devices", users_devices_path %></p>
+<p><%= link_to "see all users", users_path %></p>
+<p><%= link_to "logout", logins_destroy_path %></p>
+</div>
+<%= link_to "back", root_path %></p>
+</div>
+
+
+
+
+
+
+
+
+
+
+Rails.application.routes.draw do
+  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+
+  # Defines the root path route ("/")
+  get "/devices" => 'users#devices', as: 'users_devices'
+  get "/destroy" => 'logins#destroy', as: 'logins_destroy'
+  root "remotes#index"
+  resource :remote
+  resources :users
+  resources :logins
+end
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+
+
+

@@ -1,8 +1,13 @@
-<h1>Hi <%= @user.name %></h1>
+<div class="remote container" >
+<h1>Hi <span class="profile" ><%= link_to @user.name, user_path(@user) %></span>!</h1>
 <p>Here is your remote control!</p>
-<div>
-<span><%= link_to "Light On", "https://api.thingspeak.com/update?api_key=91SHW5GUCCRO6Y5M&field1=1" %></span>
-<span><%= link_to "Light Off", "https://api.thingspeak.com/update?api_key=91SHW5GUCCRO6Y5M&field1=2" %></span>
-<span><%= link_to "Fan On", "https://api.thingspeak.com/update?api_key=91SHW5GUCCRO6Y5M&field1=3" %></span>
-<span><%= link_to "Fan Off", "https://api.thingspeak.com/update?api_key=91SHW5GUCCRO6Y5M&field1=4" %></span>
+<div class="control" >
+<div class="inner" >
+<%= button_to "Light On", "https://api.thingspeak.com/update?api_key=91SHW5GUCCRO6Y5M&field1=" , class:"but1"%>
+<%= button_to "Light Off", "https://api.thingspeak.com/update?api_key=91SHW5GUCCRO6Y5M&field1=2", class:"but2" %>
+</div>
+<div class="inner">
+<%= button_to "Fan On", "https://api.thingspeak.com/update?api_key=91SHW5GUCCRO6Y5M&field1=3", class:"but3" %>
+<%= button_to "Fan Off", "https://api.thingspeak.com/update?api_key=91SHW5GUCCRO6Y5M&field1=4", class:"but4" %>
+</div>
 </div>
